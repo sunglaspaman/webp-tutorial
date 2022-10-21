@@ -1,41 +1,35 @@
 html {
     font-size: 10px;
-  }
+    background-color: #FF0000;
+}
   
   
-  h1 {
-    font-size: 80px;
+h1 {
+    font-size: 100px;
     text-align: center;
     color: red;
-  }
+}
   
-  p, li {
+p, li {
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
-  }
+    color:#EEEEEE
+}
   
   
-  html {
-    background-color: #FF0000;
-  }
-  
-  body {
+
+body {
     width: 600px;
     margin: 0 auto;
-    background-color: #FF00FF;
+    background-color: #0000FF;
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
-  }
+    border: 20px solid green;
+}
   
-  h1 {
+h2 {
     margin: 0;
     padding: 20px 0;
     color: #12ABEF;
     text-shadow: 3px 3px 3px white;
-  }
-  
-  /*img {
-    display: block;
-    margin: 0 auto;
-  }:/
+}  
