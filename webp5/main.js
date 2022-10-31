@@ -51,9 +51,10 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    const weight = Math.round(21.4)+"stone";
-    const temperature =  Math.round(34.4)+"centigrade";
-
+    const weight = Math.round(300*0.07)//+"stone";
+    const temperature =  Math.round((94-32)/1.8)//+"centigrade";
+    newStory=newStory.replace("300 ponds","${weight} storn");
+    newstory=newStory.replace("94 fahrenheit","${temperature} centigrade);
   }
 
   story.textContent = newStorySet;
