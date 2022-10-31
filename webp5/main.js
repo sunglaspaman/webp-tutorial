@@ -54,7 +54,7 @@ function result() {
     const weight = Math.round(300*0.07)//+"stone";
     const temperature =  Math.round((94-32)/1.8)//+"centigrade";
     newStory=newStory.replace("300 pounds",'${weight} storn');
-    newStory=newStory.replace("94 fahrenheit",'{temperature} centigrade');
+    newStory=newStory.replace("94 fahrenheit",'${temperature} centigrade');
   }
 
   story.textContent = newStorySet;
